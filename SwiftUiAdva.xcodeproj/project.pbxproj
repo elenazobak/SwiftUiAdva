@@ -13,6 +13,8 @@
 		F3635E942A5DF36D003C047A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3635E932A5DF36D003C047A /* Preview Assets.xcassets */; };
 		F3635E962A5DF36D003C047A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3635E952A5DF36D003C047A /* Persistence.swift */; };
 		F3635E992A5DF36D003C047A /* SwiftUiAdva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3635E972A5DF36D003C047A /* SwiftUiAdva.xcdatamodeld */; };
+		F3635EA32A5DF3E1003C047A /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3635EA12A5DF3E1003C047A /* VisualEffectBlur.swift */; };
+		F3635EA42A5DF3E1003C047A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3635EA22A5DF3E1003C047A /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F3635E952A5DF36D003C047A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F3635E982A5DF36D003C047A /* SwiftUiAdva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUiAdva.xcdatamodel; sourceTree = "<group>"; };
 		F3635E9A2A5DF36D003C047A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3635EA12A5DF3E1003C047A /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		F3635EA22A5DF3E1003C047A /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F3635E8B2A5DF369003C047A /* SwiftUiAdva */ = {
 			isa = PBXGroup;
 			children = (
+				F3635EA02A5DF3E1003C047A /* Helpers */,
 				F3635E8C2A5DF369003C047A /* SwiftUiAdvaApp.swift */,
 				F3635E8E2A5DF369003C047A /* ContentView.swift */,
 				F3635E902A5DF36D003C047A /* Assets.xcassets */,
@@ -73,6 +78,15 @@
 				F3635E932A5DF36D003C047A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3635EA02A5DF3E1003C047A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F3635EA12A5DF3E1003C047A /* VisualEffectBlur.swift */,
+				F3635EA22A5DF3E1003C047A /* ImagePicker.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3635EA32A5DF3E1003C047A /* VisualEffectBlur.swift in Sources */,
 				F3635E962A5DF36D003C047A /* Persistence.swift in Sources */,
 				F3635E8F2A5DF369003C047A /* ContentView.swift in Sources */,
+				F3635EA42A5DF3E1003C047A /* ImagePicker.swift in Sources */,
 				F3635E8D2A5DF369003C047A /* SwiftUiAdvaApp.swift in Sources */,
 				F3635E992A5DF36D003C047A /* SwiftUiAdva.xcdatamodeld in Sources */,
 			);
